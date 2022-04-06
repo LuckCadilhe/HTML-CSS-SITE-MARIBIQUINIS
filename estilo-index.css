@@ -1,0 +1,129 @@
+body{
+	font-family: 'Libre Baskerville', serif;
+	background: #ffcb65;
+}
+header {
+}
+
+.logo {
+	display: block;
+	position: static;
+	width: 300px;
+	margin: 0 auto;
+}
+
+nav {
+	flex-direction: row;
+	text-align: center;
+	top: 100px;
+	right: 0;
+}
+
+nav li{
+	display: inline-block;
+	margin: 0 20px 20px 15px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #C78C19;
+	text-decoration: underline;
+}
+
+.principal{
+	text-align: center;
+	padding: 3em 0;
+	/*display: inline-block;*/
+	vertical-align: top;
+}
+
+.titulo-principal{
+	font-weight: bold;
+	font-size: 22px;
+	/*display: inline-block;*/
+	text-align: center;
+	padding: 20px;
+}
+p {
+	display: inline-block;
+	text-align: left;
+	padding: 5px;
+}
+
+.baixo{
+	display: block;
+	position: static;
+	width: 150px;
+	margin: 0 auto;
+}
+
+.biquinis{
+	display: flex;
+	width: 700px;
+	margin: 2em auto;
+	padding: 50px 0;}
+
+.imagem-biquinis {
+	display: block;
+	width: 60%;
+	margin: 1em auto;
+	padding: 2em auto;
+}
+
+.biquinis li{
+	display: inline-block;
+	text-align: center;
+	width: 35%;
+	vertical-align: top;
+	margin: 1.5% 1.5%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	border: 2px solid #000000;
+	border-radius: 10px;
+
+}
+
+.biquinis li:hover{
+	border-color: #FF8C00;
+	cursor: pointer;
+}
+
+.biquinis li:active{
+	border-color: #000000;
+}
+
+footer{
+	background: #ffcb65;
+}
+.rodape{
+	font-size: 15px;
+	text-align: center;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.whatsapp-link {
+	position: fixed;
+	width: 60px;
+	height: 60px;
+	bottom: 40px;
+	right: 40px;
+	background-color: #25d366;
+	color: #fff;
+	border-radius: 50px;
+	text-align: center;
+	font-size: 30px;
+	box-shadow: 1px 1px 2px #888;
+	z-index: 1000;
+}
+ 
+.fa-whatsapp {
+	margin-top: 16px;
+}

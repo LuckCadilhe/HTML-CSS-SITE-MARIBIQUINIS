@@ -45,14 +45,12 @@ nav a:hover {
 .principal{
 	text-align: center;
 	padding: 3em 0;
-	/*display: inline-block;*/
 	vertical-align: top;
 }
 
 .titulo-principal{
 	font-weight: bold;
 	font-size: 22px;
-	/*display: inline-block;*/
 	text-align: center;
 	padding: 20px;
 }
@@ -134,4 +132,15 @@ footer{
  
 .fa-whatsapp {
 	margin-top: 16px;
+}
+
+@media screen and (max-width: 480px){
+	.biquinis ,.rodape{
+		width: auto;
+		display: grid;
+		padding: 2em;
+	}
+	.biquinis li{
+		width: 100%;
+	}
 }
